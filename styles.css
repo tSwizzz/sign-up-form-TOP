@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "theFont";
+    src: url(fonts/mom___-webfont.woff);
+}
+
+@font-face {
+    font-family: "theOtherFont";
+    src: url(fonts/mom___-webfont.woff2);
+}
+
+/* styling for top right section */
+body {
+    background-color: black;
+}
+.mainContainer {
+    position: relative;
+    display: flex;
+    gap: 25px;
+}
+.image {
+    width:700px;
+    height: 1000px;
+}
+.rightTopContainer {
+    border-radius: 20px;
+}
+.rightTopHeader {
+    font-family: "theFont";
+    font-size: xx-large;
+    margin-top: 40px;
+    padding: 16px;
+    color:darkred;
+}
+/* --x styling for top right section x-- */
+
+/* styling for mid section */
+.rightMidHeader {
+    padding: 16px;
+}
+
+.rightMidContainer {
+    background-image: url("./images/smoke.jpg");
+}
+.firstLastName, .emailPhoneNumber, .passwords {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    color:red;
+}
+.phone {
+    margin-right: 340px;
+}
+.confirm {
+    margin-right: 315px;
+}
+label {
+    font-family: "theOtherFont";
+}
+input {
+    border-radius: 10px;
+}
+input:focus {
+    background-color: lightblue;
+    box-shadow:2px 2px 6px grey;
+}
+
+
