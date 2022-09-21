@@ -7,7 +7,14 @@
     font-family: "theOtherFont";
     src: url(fonts/mom___-webfont.woff2);
 }
-
+.logo {
+    color: darkred;
+    font-family: "theFont";
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 60px;
+    font-size: 50px;
+}
 /* styling for top right section */
 body {
     background-color: black;
@@ -29,7 +36,7 @@ body {
     font-size: xx-large;
     margin-top: 40px;
     padding: 16px;
-    color:darkred;
+    color:red;
 }
 /* --x styling for top right section x-- */
 
@@ -63,5 +70,25 @@ input:focus {
     background-color: lightblue;
     box-shadow:2px 2px 6px grey;
 }
+/* --X styling for mid section x-- */
+
+/* styling for last section */
+.account {
+    font-family: "theFont";
+    color:red;
+}
+.createAccount {
+    font-family: "theFont";
+    background-color:purple;
+    margin:20px;
+}
+.hasAccount {
+    display: flex;
+    gap:8px;
+}
+a {
+    color:aqua;
+}
+/* --x styling for last section x-- */
 
 
